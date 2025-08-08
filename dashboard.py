@@ -40,8 +40,16 @@ class DashboardData:
             'eta_summary': None
         }
         
+        # Define file extensions for each type
+        file_extensions = {
+            'eta_results': '.csv',
+            'delivery_alerts': '.csv',
+            'llm_communications': '.json',
+            'eta_summary': '.json'
+        }
+        
         for file_type in files.keys():
-            pattern = os.path.join(self.output_dir, f"{file_type}_*.csv" if 'csv' in file_type else f"{file_type}_*.json")
+            pattern = os.path.join(self.output_dir, f"{file_type}_*{file_extensions[file_type]}")
             matching_files = glob.glob(pattern)
             if matching_files:
                 files[file_type] = max(matching_files, key=os.path.getctime)

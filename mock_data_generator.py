@@ -108,7 +108,12 @@ class MockDataGenerator:
                 
                 # Calculate times
                 planned_time = datetime.now() + timedelta(minutes=base_time + (i * 20))
-                actual_time = planned_time + timedelta(minutes=base_time * (traffic_mult - 1))
+                # Introduce more realistic delays
+                if random.random() < 0.4:  # 40% chance of delay
+                    delay_factor = random.uniform(1.2, 2.0)
+                    actual_time = planned_time + timedelta(minutes=base_time * delay_factor * (traffic_mult - 1) + random.randint(10, 30))
+                else:
+                    actual_time = planned_time + timedelta(minutes=base_time * (traffic_mult - 1))
                 delay_minutes = (actual_time - planned_time).total_seconds() / 60
                 
                 # Distance and speed
