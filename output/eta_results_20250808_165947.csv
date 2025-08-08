@@ -1,0 +1,32 @@
+stop_id,driver_id,customer_name,delivery_address,planned_eta,calculated_eta,delay_minutes,is_delayed,distance_km,avg_speed_kmh,traffic_multiplier,traffic_condition,priority,order_value,delivery_window
+STOP_001,DRV001,Hind Al-Suwaidi,"Burj Khalifa, Downtown Dubai",17:35,18:29,54.0,True,14.86,24.8,2.5,Very High,Premium,199.48,17:35-18:35
+STOP_002,DRV001,Mariam Al-Nuaimi,"Burj Khalifa, Downtown Dubai",17:51,19:16,84.5,True,9.8,18.4,2.5,Very High,Standard,114.88,17:51-18:51
+STOP_003,DRV001,Aisha Al-Qasimi,"Cluster A, JLT",18:09,18:33,24.0,True,12.26,24.5,1.8,High,Premium,88.07,18:09-19:09
+STOP_004,DRV001,Saeed Al-Marri,"Marina Walk, Dubai Marina",18:39,19:11,32.0,True,13.57,20.4,1.8,High,Premium,181.97,18:39-19:39
+STOP_005,DRV002,Hassan Al-Maktoum,"Cluster A, JLT",17:26,18:23,56.5,True,2.77,6.1,1.8,High,Premium,66.32,17:26-18:26
+STOP_006,DRV002,Majid Al-Ketbi,"Cluster A, JLT",18:03,18:38,35.2,True,7.78,10.6,1.8,High,Standard,185.5,18:03-19:03
+STOP_007,DRV002,Hassan Al-Maktoum,"Al Fahidi, Bur Dubai",18:03,18:10,7.2,False,8.76,21.9,1.3,Medium,Express,231.97,18:03-19:03
+STOP_008,DRV002,Hind Al-Suwaidi,"Al Fahidi, Bur Dubai",18:42,19:31,48.8,True,11.37,15.9,1.3,Medium,Premium,76.78,18:42-19:42
+STOP_009,DRV002,Salem Al-Dhaheri,"Burj Khalifa, Downtown Dubai",18:48,19:32,43.5,True,8.45,17.5,2.5,Very High,Premium,226.51,18:48-19:48
+STOP_010,DRV002,Saeed Al-Marri,"Marina Walk, Dubai Marina",18:54,19:06,12.0,True,3.27,13.1,1.8,High,Standard,67.2,18:54-19:54
+STOP_011,DRV002,Rashid Al-Falasi,"Gate Village, DIFC",19:18,19:24,5.7,False,12.8,40.4,1.3,Medium,Premium,160.95,19:18-20:18
+STOP_012,DRV002,Noura Al-Shamsi,"Bay Square, Business Bay",19:44,20:04,20.0,True,10.32,24.8,1.8,High,Standard,45.82,19:44-20:44
+STOP_013,DRV003,Hassan Al-Maktoum,"Beach Road, Jumeirah",17:33,18:21,47.8,True,12.71,22.4,1.3,Medium,Premium,236.38,17:33-18:33
+STOP_014,DRV003,Rashid Al-Falasi,"Gold Souk, Deira",17:59,19:11,71.6,True,11.6,17.4,1.8,High,Express,170.91,17:59-18:59
+STOP_015,DRV003,Salem Al-Dhaheri,"Gold Souk, Deira",18:21,19:43,81.8,True,11.65,16.6,1.8,High,Express,144.26,18:21-19:21
+STOP_016,DRV003,Aisha Al-Qasimi,"Burj Khalifa, Downtown Dubai",18:39,19:39,60.0,True,6.28,9.4,2.5,Very High,Premium,182.1,18:39-19:39
+STOP_017,DRV003,Majid Al-Ketbi,"Shopping Complex, Karama",18:43,18:50,7.2,False,11.83,29.6,1.3,Medium,Express,83.62,18:43-19:43
+STOP_018,DRV003,Saeed Al-Marri,"Gold Souk, Deira",19:22,19:57,34.4,True,11.6,16.2,1.8,High,Premium,229.6,19:22-20:22
+STOP_019,DRV003,Khalid Al-Mansoori,"Beach Road, Jumeirah",19:42,19:55,12.9,True,8.39,11.7,1.3,Medium,Premium,226.68,19:42-20:42
+STOP_020,DRV004,Salem Al-Dhaheri,"Mall of Emirates, Al Barsha",17:41,18:44,63.0,True,13.47,19.2,2.5,Very High,Express,150.62,17:41-18:41
+STOP_021,DRV004,Aisha Al-Qasimi,"Gold Souk, Deira",17:42,18:01,18.4,True,5.77,15.0,1.8,High,Premium,189.84,17:42-18:42
+STOP_022,DRV004,Moza Al-Thani,"Burj Khalifa, Downtown Dubai",18:20,19:22,61.5,True,3.37,4.9,2.5,Very High,Standard,149.87,18:20-19:20
+STOP_023,DRV004,Reem Al-Maktoum,"Shopping Complex, Karama",18:28,18:37,8.7,False,10.14,21.0,1.3,Medium,Express,138.36,18:28-19:28
+STOP_024,DRV005,Layla Al-Mazrouei,"Shopping Complex, Karama",17:28,17:37,8.7,False,3.57,7.4,1.3,Medium,Premium,72.96,17:28-18:28
+STOP_025,DRV005,Rashid Al-Falasi,"Cluster A, JLT",17:48,18:11,23.2,True,8.12,16.8,1.8,High,Standard,161.0,17:48-18:48
+STOP_026,DRV005,Abdullah Al-Rashid,"Gold Souk, Deira",18:22,19:38,75.2,True,10.58,14.8,1.8,High,Express,68.09,18:22-19:22
+STOP_027,DRV005,Hind Al-Suwaidi,"Gate Village, DIFC",18:22,18:55,33.1,True,4.29,11.2,1.3,Medium,Express,112.41,18:22-19:22
+STOP_028,DRV005,Mariam Al-Nuaimi,"Cluster A, JLT",18:46,19:08,21.6,True,14.6,32.4,1.8,High,Express,141.32,18:46-19:46
+STOP_029,DRV005,Moza Al-Thani,"Gate Village, DIFC",19:08,19:17,8.7,False,11.46,23.7,1.3,Medium,Express,227.68,19:08-20:08
+STOP_030,DRV005,Noura Al-Shamsi,"Burj Khalifa, Downtown Dubai",19:35,20:29,54.0,True,14.63,24.4,2.5,Very High,Standard,222.85,19:35-20:35
+STOP_031,DRV005,Moza Al-Thani,"Al Fahidi, Bur Dubai",19:45,20:18,32.8,True,14.23,32.8,1.3,Medium,Standard,127.18,19:45-20:45

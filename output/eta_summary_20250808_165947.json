@@ -1,0 +1,56 @@
+{
+  "operational_metrics": {
+    "total_drivers": 5,
+    "total_stops": 31,
+    "completed_deliveries": 6,
+    "delayed_deliveries": 25,
+    "on_time_rate": 19.4,
+    "average_delay": 44.1,
+    "total_distance": 304.3,
+    "average_speed": 18.9
+  },
+  "performance_indicators": {
+    "efficiency_score": 94.7,
+    "customer_satisfaction": 88.3,
+    "route_optimization": 74.9,
+    "traffic_adaptation": 88.2
+  },
+  "alert_breakdown": {
+    "high_priority": 12,
+    "medium_priority": 6,
+    "low_priority": 7
+  },
+  "driver_performance": [
+    {
+      "driver_id": "DRV001",
+      "total_stops": 4,
+      "delayed_stops": 4,
+      "efficiency": 83.2
+    },
+    {
+      "driver_id": "DRV002",
+      "total_stops": 8,
+      "delayed_stops": 6,
+      "efficiency": 83.4
+    },
+    {
+      "driver_id": "DRV003",
+      "total_stops": 7,
+      "delayed_stops": 6,
+      "efficiency": 88.6
+    },
+    {
+      "driver_id": "DRV004",
+      "total_stops": 4,
+      "delayed_stops": 3,
+      "efficiency": 89.8
+    },
+    {
+      "driver_id": "DRV005",
+      "total_stops": 8,
+      "delayed_stops": 6,
+      "efficiency": 85.9
+    }
+  ],
+  "timestamp": "2025-08-08T16:59:47.781548"
+}

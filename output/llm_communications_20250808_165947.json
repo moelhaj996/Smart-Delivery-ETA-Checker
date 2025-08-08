@@ -1,0 +1,287 @@
+{
+  "customer_messages": [
+    {
+      "customer_name": "Hind Al-Suwaidi",
+      "message": "Hi Hind Al-Suwaidi, your Calo delivery is running 54 minutes late due to traffic. New ETA: 18:29. Thank you for your patience!",
+      "delivery_address": "Burj Khalifa, Downtown Dubai",
+      "delay_minutes": 54,
+      "new_eta": "18:29",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Mariam Al-Nuaimi",
+      "message": "Hello Mariam Al-Nuaimi, traffic conditions have delayed your Calo delivery. New arrival time: 19:16. We appreciate your patience!",
+      "delivery_address": "Burj Khalifa, Downtown Dubai",
+      "delay_minutes": 84,
+      "new_eta": "19:16",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Aisha Al-Qasimi",
+      "message": "Hi Aisha Al-Qasimi, your Calo delivery is running 24 minutes late due to traffic. New ETA: 18:33. Thank you for your patience!",
+      "delivery_address": "Cluster A, JLT",
+      "delay_minutes": 24,
+      "new_eta": "18:33",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Saeed Al-Marri",
+      "message": "Update for Saeed Al-Marri: Your delivery is delayed by 32 minutes. Our driver will arrive at approximately 19:11. Thanks for understanding!",
+      "delivery_address": "Marina Walk, Dubai Marina",
+      "delay_minutes": 32,
+      "new_eta": "19:11",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Hassan Al-Maktoum",
+      "message": "Dear Hassan Al-Maktoum, we're experiencing a slight delay with your order. Expected arrival: 18:23 (+56 min). Apologies for any inconvenience.",
+      "delivery_address": "Cluster A, JLT",
+      "delay_minutes": 56,
+      "new_eta": "18:23",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Majid Al-Ketbi",
+      "message": "Dear Majid Al-Ketbi, we're experiencing a slight delay with your order. Expected arrival: 18:38 (+35 min). Apologies for any inconvenience.",
+      "delivery_address": "Cluster A, JLT",
+      "delay_minutes": 35,
+      "new_eta": "18:38",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Hind Al-Suwaidi",
+      "message": "Update for Hind Al-Suwaidi: Your delivery is delayed by 48 minutes. Our driver will arrive at approximately 19:31. Thanks for understanding!",
+      "delivery_address": "Al Fahidi, Bur Dubai",
+      "delay_minutes": 48,
+      "new_eta": "19:31",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Salem Al-Dhaheri",
+      "message": "Update for Salem Al-Dhaheri: Your delivery is delayed by 43 minutes. Our driver will arrive at approximately 19:32. Thanks for understanding!",
+      "delivery_address": "Burj Khalifa, Downtown Dubai",
+      "delay_minutes": 43,
+      "new_eta": "19:32",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Saeed Al-Marri",
+      "message": "Update for Saeed Al-Marri: Your delivery is delayed by 12 minutes. Our driver will arrive at approximately 19:06. Thanks for understanding!",
+      "delivery_address": "Marina Walk, Dubai Marina",
+      "delay_minutes": 12,
+      "new_eta": "19:06",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Noura Al-Shamsi",
+      "message": "Hello Noura Al-Shamsi, traffic conditions have delayed your Calo delivery. New arrival time: 20:04. We appreciate your patience!",
+      "delivery_address": "Bay Square, Business Bay",
+      "delay_minutes": 20,
+      "new_eta": "20:04",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Hassan Al-Maktoum",
+      "message": "Update for Hassan Al-Maktoum: Your delivery is delayed by 47 minutes. Our driver will arrive at approximately 18:21. Thanks for understanding!",
+      "delivery_address": "Beach Road, Jumeirah",
+      "delay_minutes": 47,
+      "new_eta": "18:21",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Rashid Al-Falasi",
+      "message": "Hello Rashid Al-Falasi, traffic conditions have delayed your Calo delivery. New arrival time: 19:11. We appreciate your patience!",
+      "delivery_address": "Gold Souk, Deira",
+      "delay_minutes": 71,
+      "new_eta": "19:11",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Salem Al-Dhaheri",
+      "message": "Dear Salem Al-Dhaheri, we're experiencing a slight delay with your order. Expected arrival: 19:43 (+81 min). Apologies for any inconvenience.",
+      "delivery_address": "Gold Souk, Deira",
+      "delay_minutes": 81,
+      "new_eta": "19:43",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Aisha Al-Qasimi",
+      "message": "Hello Aisha Al-Qasimi, traffic conditions have delayed your Calo delivery. New arrival time: 19:39. We appreciate your patience!",
+      "delivery_address": "Burj Khalifa, Downtown Dubai",
+      "delay_minutes": 60,
+      "new_eta": "19:39",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Saeed Al-Marri",
+      "message": "Hi Saeed Al-Marri, your Calo delivery is running 34 minutes late due to traffic. New ETA: 19:57. Thank you for your patience!",
+      "delivery_address": "Gold Souk, Deira",
+      "delay_minutes": 34,
+      "new_eta": "19:57",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Khalid Al-Mansoori",
+      "message": "Hi Khalid Al-Mansoori, your Calo delivery is running 12 minutes late due to traffic. New ETA: 19:55. Thank you for your patience!",
+      "delivery_address": "Beach Road, Jumeirah",
+      "delay_minutes": 12,
+      "new_eta": "19:55",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Salem Al-Dhaheri",
+      "message": "Hello Salem Al-Dhaheri, traffic conditions have delayed your Calo delivery. New arrival time: 18:44. We appreciate your patience!",
+      "delivery_address": "Mall of Emirates, Al Barsha",
+      "delay_minutes": 63,
+      "new_eta": "18:44",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Aisha Al-Qasimi",
+      "message": "Hi Aisha Al-Qasimi, your Calo delivery is running 18 minutes late due to traffic. New ETA: 18:01. Thank you for your patience!",
+      "delivery_address": "Gold Souk, Deira",
+      "delay_minutes": 18,
+      "new_eta": "18:01",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Moza Al-Thani",
+      "message": "Dear Moza Al-Thani, we're experiencing a slight delay with your order. Expected arrival: 19:22 (+61 min). Apologies for any inconvenience.",
+      "delivery_address": "Burj Khalifa, Downtown Dubai",
+      "delay_minutes": 61,
+      "new_eta": "19:22",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Rashid Al-Falasi",
+      "message": "Dear Rashid Al-Falasi, we're experiencing a slight delay with your order. Expected arrival: 18:11 (+23 min). Apologies for any inconvenience.",
+      "delivery_address": "Cluster A, JLT",
+      "delay_minutes": 23,
+      "new_eta": "18:11",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Abdullah Al-Rashid",
+      "message": "Update for Abdullah Al-Rashid: Your delivery is delayed by 75 minutes. Our driver will arrive at approximately 19:38. Thanks for understanding!",
+      "delivery_address": "Gold Souk, Deira",
+      "delay_minutes": 75,
+      "new_eta": "19:38",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Hind Al-Suwaidi",
+      "message": "Hi Hind Al-Suwaidi, your Calo delivery is running 33 minutes late due to traffic. New ETA: 18:55. Thank you for your patience!",
+      "delivery_address": "Gate Village, DIFC",
+      "delay_minutes": 33,
+      "new_eta": "18:55",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Mariam Al-Nuaimi",
+      "message": "Update for Mariam Al-Nuaimi: Your delivery is delayed by 21 minutes. Our driver will arrive at approximately 19:08. Thanks for understanding!",
+      "delivery_address": "Cluster A, JLT",
+      "delay_minutes": 21,
+      "new_eta": "19:08",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Noura Al-Shamsi",
+      "message": "Update for Noura Al-Shamsi: Your delivery is delayed by 54 minutes. Our driver will arrive at approximately 20:29. Thanks for understanding!",
+      "delivery_address": "Burj Khalifa, Downtown Dubai",
+      "delay_minutes": 54,
+      "new_eta": "20:29",
+      "sent_at": "16:59",
+      "status": "sent"
+    },
+    {
+      "customer_name": "Moza Al-Thani",
+      "message": "Dear Moza Al-Thani, we're experiencing a slight delay with your order. Expected arrival: 20:18 (+32 min). Apologies for any inconvenience.",
+      "delivery_address": "Al Fahidi, Bur Dubai",
+      "delay_minutes": 32,
+      "new_eta": "20:18",
+      "sent_at": "16:59",
+      "status": "sent"
+    }
+  ],
+  "dispatcher_alerts": [
+    {
+      "driver_id": "DRV001",
+      "alert_level": "HIGH",
+      "affected_stops": 4,
+      "message": "**DISPATCH ALERT: Driver DRV001**\n\n\u2022 2 HIGH priority delays\n\u2022 1 MEDIUM priority delays\n\nRecommended Actions:\n1. Contact affected customers immediately\n2. Review route optimization options\n3. Consider backup driver assignment for critical orders\n4. Monitor traffic conditions for remaining stops",
+      "timestamp": "2025-08-08T16:59:47.779116"
+    },
+    {
+      "driver_id": "DRV002",
+      "alert_level": "HIGH",
+      "affected_stops": 6,
+      "message": "**DISPATCH ALERT: Driver DRV002**\n\n\u2022 2 HIGH priority delays\n\u2022 2 MEDIUM priority delays\n\nRecommended Actions:\n1. Contact affected customers immediately\n2. Review route optimization options\n3. Consider backup driver assignment for critical orders\n4. Monitor traffic conditions for remaining stops",
+      "timestamp": "2025-08-08T16:59:47.779303"
+    },
+    {
+      "driver_id": "DRV003",
+      "alert_level": "HIGH",
+      "affected_stops": 6,
+      "message": "**DISPATCH ALERT: Driver DRV003**\n\n\u2022 4 HIGH priority delays\n\u2022 1 MEDIUM priority delays\n\nRecommended Actions:\n1. Contact affected customers immediately\n2. Review route optimization options\n3. Consider backup driver assignment for critical orders\n4. Monitor traffic conditions for remaining stops",
+      "timestamp": "2025-08-08T16:59:47.779475"
+    },
+    {
+      "driver_id": "DRV004",
+      "alert_level": "HIGH",
+      "affected_stops": 3,
+      "message": "**DISPATCH ALERT: Driver DRV004**\n\n\u2022 2 HIGH priority delays\n\u2022 0 MEDIUM priority delays\n\nRecommended Actions:\n1. Contact affected customers immediately\n2. Review route optimization options\n3. Consider backup driver assignment for critical orders\n4. Monitor traffic conditions for remaining stops",
+      "timestamp": "2025-08-08T16:59:47.779638"
+    },
+    {
+      "driver_id": "DRV005",
+      "alert_level": "HIGH",
+      "affected_stops": 6,
+      "message": "**DISPATCH ALERT: Driver DRV005**\n\n\u2022 2 HIGH priority delays\n\u2022 2 MEDIUM priority delays\n\nRecommended Actions:\n1. Contact affected customers immediately\n2. Review route optimization options\n3. Consider backup driver assignment for critical orders\n4. Monitor traffic conditions for remaining stops",
+      "timestamp": "2025-08-08T16:59:47.779795"
+    }
+  ],
+  "supervisor_report": {
+    "report_type": "operational_summary",
+    "timestamp": "2025-08-08T16:59:47.779904",
+    "summary": {
+      "total_active_drivers": 5,
+      "total_deliveries": 31,
+      "delayed_deliveries": 25,
+      "high_priority_delays": 12,
+      "average_delay_minutes": 44.1,
+      "on_time_percentage": 19.4
+    },
+    "recommendations": [
+      "Implement dynamic route optimization for high-traffic areas",
+      "Increase buffer time for deliveries in Dubai Marina and Downtown",
+      "Consider additional drivers during peak hours (5-7 PM)",
+      "Enhance real-time traffic monitoring integration"
+    ],
+    "risk_assessment": "MEDIUM"
+  },
+  "generation_timestamp": "2025-08-08T16:59:47.779934",
+  "total_communications": 24
+}

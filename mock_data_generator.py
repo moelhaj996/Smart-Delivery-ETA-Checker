@@ -60,8 +60,33 @@ class MockDataGenerator:
         alerts_file = os.path.join(self.output_dir, f"delivery_alerts_{self.timestamp}.csv")
         alerts_df.to_csv(alerts_file, index=False)
         
+        # Generate customer communications
+        customer_messages = []
+        delayed_deliveries = eta_df[eta_df['is_delayed']]
+        
+        for _, row in delayed_deliveries.iterrows():
+            message_templates = [
+                f"Hi {row['customer_name']}, your Calo delivery is running {int(row['delay_minutes'])} minutes late due to traffic. New ETA: {row['calculated_eta']}. Thank you for your patience!",
+                f"Dear {row['customer_name']}, we're experiencing a slight delay with your order. Expected arrival: {row['calculated_eta']} (+{int(row['delay_minutes'])} min). Apologies for any inconvenience.",
+                f"Update for {row['customer_name']}: Your delivery is delayed by {int(row['delay_minutes'])} minutes. Our driver will arrive at approximately {row['calculated_eta']}. Thanks for understanding!",
+                f"Hello {row['customer_name']}, traffic conditions have delayed your Calo delivery. New arrival time: {row['calculated_eta']}. We appreciate your patience!"
+            ]
+            
+            customer_messages.append({
+                'customer_name': row['customer_name'],
+                'message': random.choice(message_templates),
+                'delivery_address': row['delivery_address'],
+                'delay_minutes': int(row['delay_minutes']),
+                'new_eta': row['calculated_eta'],
+                'sent_at': datetime.now().strftime('%H:%M'),
+                'status': 'sent'
+            })
+
         # Generate LLM communications
         communications = self._generate_llm_communications(eta_df, alerts_df)
+        # Add customer messages to communications
+        communications['customer_messages'] = customer_messages
+        
         comm_file = os.path.join(self.output_dir, f"llm_communications_{self.timestamp}.json")
         with open(comm_file, 'w') as f:
             json.dump(communications, f, indent=2)
@@ -148,6 +173,17 @@ class MockDataGenerator:
         # Filter delayed deliveries
         delayed_deliveries = eta_df[eta_df['is_delayed'] == True]
         
+        delay_reasons = [
+            "Heavy traffic congestion",
+            "Road construction delays",
+            "Vehicle breakdown resolved",
+            "Customer unavailable - rescheduled",
+            "Weather conditions",
+            "Multiple delivery attempts",
+            "GPS navigation issues",
+            "Parking difficulties"
+        ]
+        
         for _, row in delayed_deliveries.iterrows():
             # Determine severity
             delay = row['delay_minutes']
@@ -161,6 +197,8 @@ class MockDataGenerator:
                 severity = "LOW"
                 impact = "Minor delay within acceptable range"
             
+            reason = random.choice(delay_reasons)
+            
             alerts.append({
                 'alert_id': f"ALT_{len(alerts)+1:03d}",
                 'stop_id': row['stop_id'],
@@ -173,6 +211,7 @@ class MockDataGenerator:
                 'alert_severity': severity,
                 'traffic_condition': row['traffic_condition'],
                 'impact_description': impact,
+                'delay_reason': reason,
                 'recommended_action': self._get_recommended_action(severity, delay),
                 'alert_timestamp': datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
                 'priority_level': row['priority'],
