@@ -1,0 +1,170 @@
+{
+  "customer_messages": [
+    {
+      "recipient": "Moza Al-Thani",
+      "type": "delay_notification",
+      "delay_minutes": 25.6,
+      "new_eta": "18:29",
+      "message": "Dear Moza Al-Thani,\n\nWe sincerely apologize for the delay in your delivery. Due to unexpected traffic conditions in Deira, your new estimated delivery time is 18:29.\n\nWe appreciate your patience and will ensure your order arrives as soon as possible. If you have any concerns, please don't hesitate to contact us.\n\nThank you for your understanding.\n\nBest regards,\nSmart Delivery Team",
+      "priority": "Standard",
+      "order_value": 55.07
+    },
+    {
+      "recipient": "Shamma Al-Hosani",
+      "type": "delay_notification",
+      "delay_minutes": 67.5,
+      "new_eta": "20:04",
+      "message": "Dear Shamma Al-Hosani,\n\nWe sincerely apologize for the delay in your delivery. Due to unexpected traffic conditions in Downtown Dubai, your new estimated delivery time is 20:04.\n\nWe appreciate your patience and will ensure your order arrives as soon as possible. If you have any concerns, please don't hesitate to contact us.\n\nThank you for your understanding.\n\nBest regards,\nSmart Delivery Team",
+      "priority": "Express",
+      "order_value": 67.98
+    },
+    {
+      "recipient": "Layla Al-Mazrouei",
+      "type": "delay_notification",
+      "delay_minutes": 55.5,
+      "new_eta": "18:24",
+      "message": "Dear Layla Al-Mazrouei,\n\nWe sincerely apologize for the delay in your delivery. Due to unexpected traffic conditions in Downtown Dubai, your new estimated delivery time is 18:24.\n\nWe appreciate your patience and will ensure your order arrives as soon as possible. If you have any concerns, please don't hesitate to contact us.\n\nThank you for your understanding.\n\nBest regards,\nSmart Delivery Team",
+      "priority": "Premium",
+      "order_value": 128.06
+    },
+    {
+      "recipient": "Hamdan Al-Nahyan",
+      "type": "delay_notification",
+      "delay_minutes": 34.4,
+      "new_eta": "19:09",
+      "message": "Dear Hamdan Al-Nahyan,\n\nWe sincerely apologize for the delay in your delivery. Due to unexpected traffic conditions in Deira, your new estimated delivery time is 19:09.\n\nWe appreciate your patience and will ensure your order arrives as soon as possible. If you have any concerns, please don't hesitate to contact us.\n\nThank you for your understanding.\n\nBest regards,\nSmart Delivery Team",
+      "priority": "Standard",
+      "order_value": 74.56
+    },
+    {
+      "recipient": "Layla Al-Mazrouei",
+      "type": "delay_notification",
+      "delay_minutes": 25.6,
+      "new_eta": "19:09",
+      "message": "Dear Layla Al-Mazrouei,\n\nWe sincerely apologize for the delay in your delivery. Due to unexpected traffic conditions in Business Bay, your new estimated delivery time is 19:09.\n\nWe appreciate your patience and will ensure your order arrives as soon as possible. If you have any concerns, please don't hesitate to contact us.\n\nThank you for your understanding.\n\nBest regards,\nSmart Delivery Team",
+      "priority": "Express",
+      "order_value": 98.87
+    },
+    {
+      "recipient": "Hind Al-Suwaidi",
+      "type": "delay_notification",
+      "delay_minutes": 54.0,
+      "new_eta": "18:41",
+      "message": "Dear Hind Al-Suwaidi,\n\nWe sincerely apologize for the delay in your delivery. Due to unexpected traffic conditions in Al Barsha, your new estimated delivery time is 18:41.\n\nWe appreciate your patience and will ensure your order arrives as soon as possible. If you have any concerns, please don't hesitate to contact us.\n\nThank you for your understanding.\n\nBest regards,\nSmart Delivery Team",
+      "priority": "Premium",
+      "order_value": 152.6
+    },
+    {
+      "recipient": "Rashid Al-Falasi",
+      "type": "delay_notification",
+      "delay_minutes": 35.2,
+      "new_eta": "18:50",
+      "message": "Dear Rashid Al-Falasi,\n\nWe sincerely apologize for the delay in your delivery. Due to unexpected traffic conditions in JLT, your new estimated delivery time is 18:50.\n\nWe appreciate your patience and will ensure your order arrives as soon as possible. If you have any concerns, please don't hesitate to contact us.\n\nThank you for your understanding.\n\nBest regards,\nSmart Delivery Team",
+      "priority": "Standard",
+      "order_value": 46.31
+    },
+    {
+      "recipient": "Khalid Al-Mansoori",
+      "type": "delay_notification",
+      "delay_minutes": 40.5,
+      "new_eta": "19:19",
+      "message": "Dear Khalid Al-Mansoori,\n\nWe sincerely apologize for the delay in your delivery. Due to unexpected traffic conditions in Al Barsha, your new estimated delivery time is 19:19.\n\nWe appreciate your patience and will ensure your order arrives as soon as possible. If you have any concerns, please don't hesitate to contact us.\n\nThank you for your understanding.\n\nBest regards,\nSmart Delivery Team",
+      "priority": "Premium",
+      "order_value": 119.38
+    },
+    {
+      "recipient": "Abdullah Al-Rashid",
+      "type": "delay_notification",
+      "delay_minutes": 43.5,
+      "new_eta": "18:24",
+      "message": "Dear Abdullah Al-Rashid,\n\nWe sincerely apologize for the delay in your delivery. Due to unexpected traffic conditions in Downtown Dubai, your new estimated delivery time is 18:24.\n\nWe appreciate your patience and will ensure your order arrives as soon as possible. If you have any concerns, please don't hesitate to contact us.\n\nThank you for your understanding.\n\nBest regards,\nSmart Delivery Team",
+      "priority": "Premium",
+      "order_value": 177.72
+    },
+    {
+      "recipient": "Abdullah Al-Rashid",
+      "type": "delay_notification",
+      "delay_minutes": 58.5,
+      "new_eta": "19:29",
+      "message": "Dear Abdullah Al-Rashid,\n\nWe sincerely apologize for the delay in your delivery. Due to unexpected traffic conditions in Al Barsha, your new estimated delivery time is 19:29.\n\nWe appreciate your patience and will ensure your order arrives as soon as possible. If you have any concerns, please don't hesitate to contact us.\n\nThank you for your understanding.\n\nBest regards,\nSmart Delivery Team",
+      "priority": "Express",
+      "order_value": 220.63
+    },
+    {
+      "recipient": "Reem Al-Maktoum",
+      "type": "delay_notification",
+      "delay_minutes": 28.0,
+      "new_eta": "20:14",
+      "message": "Dear Reem Al-Maktoum,\n\nWe sincerely apologize for the delay in your delivery. Due to unexpected traffic conditions in Deira, your new estimated delivery time is 20:14.\n\nWe appreciate your patience and will ensure your order arrives as soon as possible. If you have any concerns, please don't hesitate to contact us.\n\nThank you for your understanding.\n\nBest regards,\nSmart Delivery Team",
+      "priority": "Standard",
+      "order_value": 174.88
+    },
+    {
+      "recipient": "Mariam Al-Nuaimi",
+      "type": "delay_notification",
+      "delay_minutes": 32.8,
+      "new_eta": "19:45",
+      "message": "Dear Mariam Al-Nuaimi,\n\nWe sincerely apologize for the delay in your delivery. Due to unexpected traffic conditions in Business Bay, your new estimated delivery time is 19:45.\n\nWe appreciate your patience and will ensure your order arrives as soon as possible. If you have any concerns, please don't hesitate to contact us.\n\nThank you for your understanding.\n\nBest regards,\nSmart Delivery Team",
+      "priority": "Standard",
+      "order_value": 194.17
+    }
+  ],
+  "dispatcher_alerts": [
+    {
+      "driver_id": "DRV001",
+      "alert_level": "HIGH",
+      "affected_stops": 6,
+      "message": "**DISPATCH ALERT: Driver DRV001**\n\n\u2022 1 HIGH priority delays\n\u2022 1 MEDIUM priority delays\n\nRecommended Actions:\n1. Contact affected customers immediately\n2. Review route optimization options\n3. Consider backup driver assignment for critical orders\n4. Monitor traffic conditions for remaining stops",
+      "timestamp": "2025-08-08T16:51:39.398944"
+    },
+    {
+      "driver_id": "DRV002",
+      "alert_level": "HIGH",
+      "affected_stops": 4,
+      "message": "**DISPATCH ALERT: Driver DRV002**\n\n\u2022 1 HIGH priority delays\n\u2022 2 MEDIUM priority delays\n\nRecommended Actions:\n1. Contact affected customers immediately\n2. Review route optimization options\n3. Consider backup driver assignment for critical orders\n4. Monitor traffic conditions for remaining stops",
+      "timestamp": "2025-08-08T16:51:39.399131"
+    },
+    {
+      "driver_id": "DRV003",
+      "alert_level": "HIGH",
+      "affected_stops": 6,
+      "message": "**DISPATCH ALERT: Driver DRV003**\n\n\u2022 1 HIGH priority delays\n\u2022 2 MEDIUM priority delays\n\nRecommended Actions:\n1. Contact affected customers immediately\n2. Review route optimization options\n3. Consider backup driver assignment for critical orders\n4. Monitor traffic conditions for remaining stops",
+      "timestamp": "2025-08-08T16:51:39.399323"
+    },
+    {
+      "driver_id": "DRV004",
+      "alert_level": "HIGH",
+      "affected_stops": 5,
+      "message": "**DISPATCH ALERT: Driver DRV004**\n\n\u2022 1 HIGH priority delays\n\u2022 2 MEDIUM priority delays\n\nRecommended Actions:\n1. Contact affected customers immediately\n2. Review route optimization options\n3. Consider backup driver assignment for critical orders\n4. Monitor traffic conditions for remaining stops",
+      "timestamp": "2025-08-08T16:51:39.399483"
+    },
+    {
+      "driver_id": "DRV005",
+      "alert_level": "MEDIUM",
+      "affected_stops": 5,
+      "message": "**DISPATCH ALERT: Driver DRV005**\n\n\u2022 0 HIGH priority delays\n\u2022 1 MEDIUM priority delays\n\nRecommended Actions:\n1. Contact affected customers immediately\n2. Review route optimization options\n3. Consider backup driver assignment for critical orders\n4. Monitor traffic conditions for remaining stops",
+      "timestamp": "2025-08-08T16:51:39.399642"
+    }
+  ],
+  "supervisor_report": {
+    "report_type": "operational_summary",
+    "timestamp": "2025-08-08T16:51:39.399739",
+    "summary": {
+      "total_active_drivers": 5,
+      "total_deliveries": 33,
+      "delayed_deliveries": 26,
+      "high_priority_delays": 4,
+      "average_delay_minutes": 28.2,
+      "on_time_percentage": 21.2
+    },
+    "recommendations": [
+      "Implement dynamic route optimization for high-traffic areas",
+      "Increase buffer time for deliveries in Dubai Marina and Downtown",
+      "Consider additional drivers during peak hours (5-7 PM)",
+      "Enhance real-time traffic monitoring integration"
+    ],
+    "risk_assessment": "MEDIUM"
+  },
+  "generation_timestamp": "2025-08-08T16:51:39.399767",
+  "total_communications": 18
+}

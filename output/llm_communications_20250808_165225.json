@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-08-08T16:52:24.636467",
+  "routing_supervisor_report": {
+    "summary": "3 drivers with 19 stops, 0 delays",
+    "delays": [],
+    "recommendations": [
+      "Review delayed stops",
+      "Contact affected customers"
+    ],
+    "risk_level": "LOW",
+    "raw_response": "```json\n{\n  \"summary\": \"All deliveries are currently on time with an average early arrival of 56.08 minutes.\",\n  \"delays\": [],\n  \"recommendations\": [\"Optimize routes for efficiency\", \"Ensure timely communication with drivers\"],\n  \"risk_level\": \"LOW\"\n}\n```"
+  },
+  "dispatcher_alert": "No delivery delays detected. All stops are on schedule.",
+  "customer_messages": []
+}
