@@ -1,0 +1,36 @@
+{
+  "simulation_timestamp": "2025-08-08T16:11:03.763871",
+  "configuration": {
+    "delay_threshold_minutes": 15.0,
+    "stop_service_time_minutes": 5.0,
+    "traffic_multiplier_range": [
+      0.8,
+      1.5
+    ],
+    "driver_speeds": {
+      "driver_001": 45.0,
+      "driver_002": 40.0,
+      "driver_003": 50.0
+    }
+  },
+  "metrics": {
+    "total_drivers": 3,
+    "total_stops": 23,
+    "delayed_stops": 0,
+    "delay_rate_percent": 0.0,
+    "average_delay_minutes": -73.98,
+    "max_delay_minutes": -11.3,
+    "total_distance_km": 141.25,
+    "average_speed_kmh": 45.43
+  },
+  "alerts_summary": {
+    "high_severity": 0,
+    "medium_severity": 0,
+    "low_severity": 0
+  },
+  "communications_summary": {
+    "routing_supervisor_risk_level": "MEDIUM",
+    "customer_messages_generated": 0,
+    "dispatcher_alert_generated": true
+  }
+}

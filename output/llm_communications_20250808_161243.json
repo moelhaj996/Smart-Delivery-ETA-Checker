@@ -1,0 +1,30 @@
+{
+  "timestamp": "2025-08-08T16:12:43.848626",
+  "routing_supervisor_report": {
+    "summary": "3 drivers with 24 total stops, 2 delays detected",
+    "delays": [
+      {
+        "stop_id": "driver_001_stop_003",
+        "delay_minutes": 18.5
+      },
+      {
+        "stop_id": "driver_002_stop_005",
+        "delay_minutes": 22.3
+      }
+    ],
+    "recommendations": [
+      "Contact customers for delayed stops to manage expectations",
+      "Consider rerouting driver_002 to optimize remaining deliveries"
+    ],
+    "risk_level": "MEDIUM"
+  },
+  "dispatcher_alert": "Mock LLM response generated due to API unavailability.",
+  "customer_messages": [
+    {
+      "stop_id": "driver_002_stop_008",
+      "customer_name": "Customer_008",
+      "delay_minutes": 20.6,
+      "message": "Hi! We wanted to update you on your delivery status. \n\nDue to higher than expected delivery volume today, your package will arrive approximately 20 minutes later than originally scheduled. Your new estimated delivery window is 3:30-4:00 PM.\n\nWe sincerely apologize for any inconvenience and appreciate your patience. Your driver is making good progress and will be with you soon!"
+    }
+  ]
+}

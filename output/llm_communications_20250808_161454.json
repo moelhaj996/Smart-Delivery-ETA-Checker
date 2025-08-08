@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-08-08T16:14:54.178407",
+  "routing_supervisor_report": {
+    "summary": "3 drivers with 24 total stops, 2 delays detected",
+    "delays": [
+      {
+        "stop_id": "driver_001_stop_003",
+        "delay_minutes": 18.5
+      },
+      {
+        "stop_id": "driver_002_stop_005",
+        "delay_minutes": 22.3
+      }
+    ],
+    "recommendations": [
+      "Contact customers for delayed stops to manage expectations",
+      "Consider rerouting driver_002 to optimize remaining deliveries"
+    ],
+    "risk_level": "MEDIUM"
+  },
+  "dispatcher_alert": "No delivery delays detected. All stops are on schedule.",
+  "customer_messages": []
+}

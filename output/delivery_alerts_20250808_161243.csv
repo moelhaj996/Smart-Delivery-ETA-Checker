@@ -1,0 +1,2 @@
+driver_id,stop_id,sequence,customer_name,distance_km,travel_time_min,service_time_min,planned_eta,calculated_eta,delay_minutes,avg_speed_kmh,traffic_multiplier,is_delayed,latitude,longitude,alert_timestamp,alert_severity
+driver_002,driver_002_stop_008,8,Customer_008,9.54,35.3,5.0,2025-08-08T19:02:43.842077,2025-08-08T19:23:21.036528,20.6,40.0,2.47,True,25.293208,55.226246,2025-08-08T16:12:43.846933,MEDIUM

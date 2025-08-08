@@ -1,0 +1,24 @@
+stop_id,driver_id,sequence,latitude,longitude,customer_name,address,planned_eta,status
+driver_001_stop_001,driver_001,1,25.229942,55.259903,Customer_001,"Building 1, Street 44, Dubai",2025-08-08T16:41:03.753147,pending
+driver_001_stop_002,driver_001,2,25.275614,55.285062,Customer_002,"Building 2, Street 4, Dubai",2025-08-08T17:11:03.753185,pending
+driver_001_stop_003,driver_001,3,25.212224,55.30267,Customer_003,"Building 3, Street 34, Dubai",2025-08-08T17:41:03.753195,pending
+driver_001_stop_004,driver_001,4,25.195755,55.278974,Customer_004,"Building 4, Street 34, Dubai",2025-08-08T18:11:03.753204,pending
+driver_001_stop_005,driver_001,5,25.176752,55.27872,Customer_005,"Building 5, Street 24, Dubai",2025-08-08T18:41:03.753212,pending
+driver_001_stop_006,driver_001,6,25.108948,55.2479,Customer_006,"Building 6, Street 42, Dubai",2025-08-08T19:11:03.753219,pending
+driver_001_stop_007,driver_001,7,25.195506,55.255176,Customer_007,"Building 7, Street 46, Dubai",2025-08-08T19:41:03.753227,pending
+driver_001_stop_008,driver_001,8,25.197521,55.187667,Customer_008,"Building 8, Street 41, Dubai",2025-08-08T20:11:03.753240,pending
+driver_001_stop_009,driver_001,9,25.217415,55.260942,Customer_009,"Building 9, Street 22, Dubai",2025-08-08T20:41:03.753248,pending
+driver_002_stop_001,driver_002,1,25.223959,55.261425,Customer_001,"Building 1, Street 26, Dubai",2025-08-08T16:41:03.753266,pending
+driver_002_stop_002,driver_002,2,25.206602,55.31577,Customer_002,"Building 2, Street 3, Dubai",2025-08-08T17:11:03.753274,pending
+driver_002_stop_003,driver_002,3,25.195358,55.299006,Customer_003,"Building 3, Street 28, Dubai",2025-08-08T17:41:03.753283,pending
+driver_002_stop_004,driver_002,4,25.126055,55.281016,Customer_004,"Building 4, Street 37, Dubai",2025-08-08T18:11:03.753290,pending
+driver_002_stop_005,driver_002,5,25.195212,55.264919,Customer_005,"Building 5, Street 4, Dubai",2025-08-08T18:41:03.753296,pending
+driver_002_stop_006,driver_002,6,25.208176,55.251534,Customer_006,"Building 6, Street 40, Dubai",2025-08-08T19:11:03.753303,pending
+driver_003_stop_001,driver_003,1,25.265932,55.301941,Customer_001,"Building 1, Street 43, Dubai",2025-08-08T16:41:03.753316,pending
+driver_003_stop_002,driver_003,2,25.24084,55.302616,Customer_002,"Building 2, Street 19, Dubai",2025-08-08T17:11:03.753324,pending
+driver_003_stop_003,driver_003,3,25.174926,55.325801,Customer_003,"Building 3, Street 46, Dubai",2025-08-08T17:41:03.753331,pending
+driver_003_stop_004,driver_003,4,25.195716,55.297547,Customer_004,"Building 4, Street 2, Dubai",2025-08-08T18:11:03.753338,pending
+driver_003_stop_005,driver_003,5,25.165361,55.259659,Customer_005,"Building 5, Street 44, Dubai",2025-08-08T18:41:03.753344,pending
+driver_003_stop_006,driver_003,6,25.178413,55.241437,Customer_006,"Building 6, Street 14, Dubai",2025-08-08T19:11:03.753351,pending
+driver_003_stop_007,driver_003,7,25.229217,55.175026,Customer_007,"Building 7, Street 26, Dubai",2025-08-08T19:41:03.753357,pending
+driver_003_stop_008,driver_003,8,25.230874,55.258719,Customer_008,"Building 8, Street 10, Dubai",2025-08-08T20:11:03.753363,pending
