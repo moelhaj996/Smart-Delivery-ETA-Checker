@@ -1,0 +1,8 @@
+{
+  "timestamp": "2025-08-08T16:49:03.833182",
+  "total_stops": 25,
+  "delayed_stops": 6,
+  "drivers_processed": 3,
+  "average_delay": -17.9,
+  "max_delay": 56.2
+}

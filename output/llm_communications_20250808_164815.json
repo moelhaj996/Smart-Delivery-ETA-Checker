@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-08-08T16:48:13.751944",
+  "routing_supervisor_report": {
+    "summary": "3 drivers with 23 stops, 0 delays",
+    "delays": [],
+    "recommendations": [
+      "Review delayed stops",
+      "Contact affected customers"
+    ],
+    "risk_level": "LOW",
+    "raw_response": "```json\n{\n  \"summary\": \"All deliveries are ahead of schedule.\",\n  \"delays\": [],\n  \"recommendations\": [\n    \"Optimize routes further to maintain efficiency.\",\n    \"Ensure driver breaks are scheduled effectively to prevent fatigue.\"\n  ],\n  \"risk_level\": \"LOW\"\n}\n```"
+  },
+  "dispatcher_alert": "No delivery delays detected. All stops are on schedule.",
+  "customer_messages": []
+}

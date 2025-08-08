@@ -1,0 +1,83 @@
+{
+  "timestamp": "2025-08-08T16:48:52.294540",
+  "routing_supervisor_report": {
+    "summary": "3 drivers with 25 stops, 6 delays",
+    "delays": [
+      {
+        "stop_id": "driver_002_stop_006",
+        "driver_id": "driver_002",
+        "delay_minutes": 56.2,
+        "customer": "Customer_006"
+      },
+      {
+        "stop_id": "driver_002_stop_004",
+        "driver_id": "driver_002",
+        "delay_minutes": 39.4,
+        "customer": "Customer_004"
+      },
+      {
+        "stop_id": "driver_002_stop_003",
+        "driver_id": "driver_002",
+        "delay_minutes": 35.2,
+        "customer": "Customer_003"
+      },
+      {
+        "stop_id": "driver_002_stop_002",
+        "driver_id": "driver_002",
+        "delay_minutes": 34.3,
+        "customer": "Customer_002"
+      },
+      {
+        "stop_id": "driver_002_stop_001",
+        "driver_id": "driver_002",
+        "delay_minutes": 27.1,
+        "customer": "Customer_001"
+      }
+    ],
+    "recommendations": [
+      "Review delayed stops",
+      "Contact affected customers"
+    ],
+    "risk_level": "MEDIUM",
+    "raw_response": "```json\n{\n  \"summary\": \"Out of 25 stops, 6 are delayed with an average delay of -17.9 minutes. The maximum delay is 56.2 minutes.\",\n  \"delays\": [\n    {\n      \"stop_number\": 1,\n      \"delay_minutes\": 20.5\n    },\n    {\n      \"stop_number\": 5,\n      \"delay_minutes\": 18.3\n    }\n  ],\n  \"recommendations\": [\n    \"Optimize route sequencing to reduce delays\",\n    \"Increase communication with drivers to address delays proactively\"\n  ],\n  \"risk_level\": \"MEDIUM\"\n}\n```"
+  },
+  "dispatcher_alert": "**Alert: Delayed Deliveries for Driver driver_002**\n\nSeveral stops for Driver driver_002 are experiencing delays, ranging from 27.1 to 56.2 minutes. To address this situation promptly, consider the following actions:\n1. Contact affected customers to inform them of the delay and provide updated delivery estimates.\n2. Review the route and traffic conditions to optimize the remaining stops and minimize further delays.\nEffective communication and proactive adjustments can help mitigate the impact of these delays. Thank you for your attention to this matter.",
+  "customer_messages": [
+    {
+      "stop_id": "driver_002_stop_006",
+      "customer_name": "Customer_006",
+      "delay_minutes": 56.2,
+      "message": "Dear Customer_006,\n\nWe sincerely apologize for the delay in your delivery. The new estimated time of arrival is between 7:55 PM and 8:55 PM today. We appreciate your patience and understanding. If you have any concerns, please feel free to reach out to us. Thank you for your understanding.\n\nWarm regards,\n[Your Company Name] Delivery Team"
+    },
+    {
+      "stop_id": "driver_002_stop_004",
+      "customer_name": "Customer_004",
+      "delay_minutes": 39.4,
+      "message": "Dear Customer_004,\n\nWe sincerely apologize for the delay in your delivery. The new estimated time of arrival is between 6:58 PM and 7:00 PM today. We appreciate your patience and understanding. If you have any questions or concerns, please feel free to reach out to us. Thank you for your understanding.\n\nWarm regards,\n[Your Company Name] Delivery Team"
+    },
+    {
+      "stop_id": "driver_002_stop_003",
+      "customer_name": "Customer_003",
+      "delay_minutes": 35.2,
+      "message": "Dear Customer_003,\n\nWe sincerely apologize for the delay in your delivery. The new estimated time of arrival is now between 6:00 PM and 6:30 PM today. We appreciate your understanding and patience. If you have any concerns, please feel free to reach out to us. Thank you for choosing our service.\n\nWarm regards,\n[Your Company Name] Delivery Team"
+    },
+    {
+      "stop_id": "driver_002_stop_002",
+      "customer_name": "Customer_002",
+      "delay_minutes": 34.3,
+      "message": "Dear Customer_002,\n\nWe sincerely apologize for the delay in your delivery. The new estimated time of arrival is between 6:13 PM and 6:38 PM today. We appreciate your understanding and patience as we work to ensure a smooth delivery experience for you.\n\nThank you for choosing our service.\n\nWarm regards,\n[Your Name]\nDelivery Logistics Team"
+    },
+    {
+      "stop_id": "driver_002_stop_001",
+      "customer_name": "Customer_001",
+      "delay_minutes": 27.1,
+      "message": "Dear Customer_001,\n\nWe sincerely apologize for the delay in your delivery. The new estimated time of arrival is between 5:45 PM and 6:00 PM today, a delay of approximately 27 minutes. We appreciate your understanding and patience. Thank you for choosing our service.\n\nWarm regards,\n[Your Company Name] Delivery Team"
+    },
+    {
+      "stop_id": "driver_002_stop_005",
+      "customer_name": "Customer_005",
+      "delay_minutes": 26.4,
+      "message": "Dear Customer_005,\n\nWe sincerely apologize for the delay in your delivery. The new estimated time of arrival is now between 7:05 PM and 7:25 PM today. We appreciate your understanding and patience as we work to ensure a smooth delivery experience for you. Thank you for choosing our service.\n\nWarm regards,\n[Your Company Name] Delivery Team"
+    }
+  ]
+}

@@ -128,7 +128,7 @@ class DashboardData:
                 'driver_id': row['driver_id'],
                 'customer_name': row['customer_name'],
                 'delay_minutes': round(row['delay_minutes'], 1),
-                'severity': row['severity'],
+                'severity': row['alert_severity'],
                 'planned_eta': row['planned_eta'],
                 'calculated_eta': row['calculated_eta']
             })
@@ -175,16 +175,15 @@ async def run_simulation():
         communications = llm.generate_all_communications(eta_df, alerts_df)
         
         # Export results
-        eta_file = engine.export_eta_results(eta_df)
-        alerts_file = engine.export_alerts(alerts_df)
+        export_files = engine.export_results(eta_df, alerts_df)
         comm_file = llm.export_communications(communications)
         
         return JSONResponse({
             "status": "success",
             "message": "New simulation completed",
             "files": {
-                "eta_results": eta_file,
-                "alerts": alerts_file,
+                "eta_results": export_files['eta_file'],
+                "alerts": export_files['alerts_file'],
                 "communications": comm_file
             }
         })
